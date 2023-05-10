@@ -18,3 +18,15 @@ public:
 	}
 	friend void manusia::shownilaipelajar(pelajar& x);
 };
+
+void manusia::shownilaipelajar(pelajar& x) {
+	cout << "nilai pelajar: " << x.nilai;
+}
+int main()
+{
+	manusia m;
+	pelajar p;
+	m.shownilaipelajar(p);
+	system("\npause");
+	return 0;
+}
