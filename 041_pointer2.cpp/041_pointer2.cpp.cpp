@@ -9,7 +9,7 @@ public:
 	}
 };
 
-int main()
+int main() {
 {
 	mahasiswa* mhs = new mahasiswa{ 1 };
 	mhs->nim = 2;
